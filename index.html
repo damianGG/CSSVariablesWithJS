@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <input id="size" type="range" min="10" max="100" value="10" name="volume">
+        <label for="volume">Font size <span class="fontSizeValue">10 px</span></label>
+    </div>
+    <div>
+        <input type="color" id="color" name="color">
+        <label for="head">Font color</label>
+    </div>
+    <div>
+        <input type="text" id="inputText">
+    </div>
+    <div>
+        <span>Follow below you can change your font text</span>
+        <select id="fontFamily" style="display: block;">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Times">Times</option>
+        </select>
+    </div>
+    <h1 class="outputText">You can change this text in field above.</h1>
+</body>
+<script src="script.js"></script>
+
+</html>

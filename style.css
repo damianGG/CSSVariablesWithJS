@@ -1,0 +1,18 @@
+:root{
+    --fontSize:10px;
+    --fontColor:blue;
+    --fontFamily:Arial;
+}
+
+h1{
+    font-size: var(--fontSize);
+    color: var(--fontColor);
+    font-family: var(--fontFamily), Helvetica, sans-serif;
+    
+}
+
+#color{
+width: 134px;
+padding: 0px;
+border: 0px;
+}
